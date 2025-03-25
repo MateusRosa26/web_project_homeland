@@ -312,39 +312,25 @@
     font: inherit; /* 2 */
   }
   
-  /* Interativo
-     ========================================================================== */
   
-  /*
-   * Adicione a visualização correta no Edge, IE 10+ e Firefox.
-   */
   
   details {
     display: block;
   }
   
-  /*
-   * Adicione a visualização correta em todos os navegadores.
-   */
+  
   
   summary {
     display: list-item;
   }
   
-  /* Diversos
-     ========================================================================== */
   
-  /**
-   * Adicione a visualização correta no IE 10+.
-   */
   
   template {
     display: none;
   }
   
-  /**
-   * Adicione a visualização correta no IE 10.
-   */
+  
   
   [hidden] {
     display: none;
