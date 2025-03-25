@@ -12,7 +12,7 @@
 .intro__title {
   max-width: 830px;
   max-height: 116px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 54px;
   line-height: 1.05;
@@ -23,7 +23,7 @@
 .intro__quote {
   max-width: 738px;
   max-height: 68px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.33;
@@ -32,7 +32,7 @@
 }
 
 .intro__quote-author {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.33;
@@ -44,7 +44,7 @@
 .intro__main-text {
   max-width: 722px;
   max-height: 182px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
