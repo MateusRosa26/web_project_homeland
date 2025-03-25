@@ -1,0 +1,49 @@
+.logo {
+  max-width: 254px;
+  max-height: 70px;
+  margin: 0 auto;
+  padding-top: 34px;
+  text-align: center;
+}
+
+.logo__image {
+  max-width: 32px;
+  max-height: 32px;
+  margin-bottom: 27px;
+}
+
+.logo__image-text {
+  width: 255px;
+  height: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    max-height: 66px;
+  }
+
+  .logo__image {
+    max-height: 30px;
+  }
+
+  .logo__image-text {
+    max-height: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    max-width: 188px;
+    max-height: 52px;
+  }
+
+  .logo__image {
+    max-width: 24px;
+    max-height: 24px;
+  }
+
+  .logo__image-text {
+    max-width: 189px;
+    max-height: 11px;
+  }
+}
