@@ -34,11 +34,12 @@
   max-width: 984px;
   max-height: 615px;
   padding-top: 64px;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 720px;
+    max-width: 100vw;
   }
 
   .lead__title {
@@ -55,7 +56,7 @@
   }
 
   .lead__image {
-    max-width: 768px;
+    max-width: 90vw;
     max-height: 480px;
   }
 }
