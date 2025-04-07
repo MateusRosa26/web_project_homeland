@@ -15,6 +15,13 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer {
     max-height: 14px;

@@ -58,6 +58,7 @@
     max-height: 98px;
     font-size: 45px;
     line-height: 1.09;
+    text-align: center;
   }
 
   .intro__quote {
@@ -73,6 +74,12 @@
 
   .intro__main-text {
     max-height: 182px;
+  }
+
+  .intro__text {
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 10px;
   }
 }
 

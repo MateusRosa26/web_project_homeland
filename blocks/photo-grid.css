@@ -1,0 +1,26 @@
+.photo-grid-container {
+  display: grid;
+  grid: repeat(2, auto) / repeat(4, 1fr);
+  gap: 10px;
+  margin: 0 auto;
+  width: 90vw;
+  place-items: center;
+  margin-top: 118px;
+}
+
+.photo__grid {
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid-container {
+    grid: repeat(4, 1fr) / repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid-container {
+    grid: repeat(8, 1fr) / repeat(1, 1fr);
+  }
+}

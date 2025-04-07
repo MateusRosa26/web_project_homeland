@@ -1,5 +1,5 @@
 .logo {
-  max-width: 254px;
+  max-width: 10vw;
   max-height: 70px;
   margin: 0 auto;
   padding-top: 34px;
@@ -15,6 +15,7 @@
 .logo__image-text {
   width: 255px;
   height: 15px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {

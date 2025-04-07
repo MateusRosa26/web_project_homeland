@@ -1,8 +1,10 @@
 .lead {
-  max-width: 984px;
+  max-width: 95vw;
   max-height: 983px;
   padding-top: 90px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .lead__title {
@@ -31,10 +33,10 @@
 }
 
 .lead__image {
-  max-width: 984px;
+  max-width: 90%;
   max-height: 615px;
   padding-top: 64px;
-  align-items: center;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -77,7 +79,7 @@
   }
 
   .lead__image {
-    max-width: 320px;
-    max-height: 200px;
+    max-width: 99%;
+    max-height: 90%;
   }
 }
