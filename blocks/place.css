@@ -15,13 +15,6 @@
   gap: 20px;
 }
 
-.place__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 100%;
-}
-
 .place__title {
   font-family: "Inter";
   font-weight: 900;
