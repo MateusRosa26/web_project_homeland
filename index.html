@@ -14,18 +14,13 @@
   <body>
     <div class="page">
       <header class="header">
-        <div class="logo">
-          <img
-            class="logo__image"
-            src="./favicon.ico"
-            alt="logo da galeria em formato de T"
-          />
-          <img
-            class="logo__image-text"
-            src="./images/texto-logo.png"
-            alt="TripleTen Art Gallery"
-          />
-        </div>
+        <img
+          class="logo"
+          src="./images/logo.png"
+          alt="logo da galeria em formato de T"
+        />
+      </header>
+      <main class="content">
         <section class="lead">
           <h1 class="lead__title">De Pátria para Pátria</h1>
           <p class="lead__subtitle">
@@ -38,8 +33,7 @@
             class="lead__image"
           />
         </section>
-      </header>
-      <main class="content">
+
         <section class="intro">
           <h2 class="intro__title">
             Conheça um pouco mais sobre a localização dos seus amigos
@@ -62,57 +56,91 @@
           </p>
         </section>
         <section class="photo-grid-container">
-          <img src="./images/grid1.png" class="photo-grid" alt="grid foto 1" />
-          <img src="./images/grid2.png" class="photo-grid" alt="grid foto 2" />
-          <img src="./images/grid3.png" class="photo-grid" alt="grid foto 3" />
-          <img src="./images/grid4.png" class="photo-grid" alt="grid foto 4" />
-          <img src="./images/grid5.png" class="photo-grid" alt="grid foto 5" />
-          <img src="./images/grid6.png" class="photo-grid" alt="grid foto 6" />
-          <img src="./images/grid7.png" class="photo-grid" alt="grid foto 7" />
-          <img src="./images/grid8.png" class="photo-grid" alt="grid foto 8" />
+          <div class="photo-grid__list">
+            <img
+              src="./images/grid1.jpg"
+              class="photo-grid"
+              alt="grid foto 1"
+            />
+            <img
+              src="./images/grid2.jpg"
+              class="photo-grid"
+              alt="grid foto 2"
+            />
+            <img
+              src="./images/grid3.jpg"
+              class="photo-grid"
+              alt="grid foto 3"
+            />
+            <img
+              src="./images/grid4.jpg"
+              class="photo-grid"
+              alt="grid foto 4"
+            />
+            <img
+              src="./images/grid5.jpg"
+              class="photo-grid"
+              alt="grid foto 5"
+            />
+            <img
+              src="./images/grid6.jpg"
+              class="photo-grid"
+              alt="grid foto 6"
+            />
+            <img
+              src="./images/grid7.jpg"
+              class="photo-grid"
+              alt="grid foto 7"
+            />
+            <img
+              src="./images/grid8.jpg"
+              class="photo-grid"
+              alt="grid foto 8"
+            />
+          </div>
         </section>
-        <section class="place">
-          <div class="place__places">
+        <section class="places">
+          <div class="place places__item">
             <h3 class="place__title">Criccieth, País de Gales</h3>
             <div class="place__author-container">
-              <p class="place__author-tag">Artista</p>
-              <p class="place__author">
-                Steffan Warren, editor-chefe Kseniya Glagoleva, gerente de
-                projeto
-              </p>
+              <span class="place__author-tag">Artista</span>
+              <span class="place__author"> Steffan Warren, editor-chefe </span>
+              <span class="place__author">
+                Kseniya Glagoleva, gerente de projeto
+              </span>
             </div>
 
             <img
               class="place__image"
-              src="./images/grid2.png"
+              src="./images/grid2.jpg"
               alt="Foto de Criccieth"
             />
-
-            <p class="place__text">
-              A ruína medieval do Castelo de Cricieth tem vista para a cidade
-              abaixo de uma rocha que se projeta para o mar. Acredita-se que
-              tenha sido construído por Llewelyn, o Grande, no século XIII.
-              Cerca de 900 anos depois, a auto-intitulada *Pérola de Gales nas
-              margens de Snowdonia* tornou-se um destino turístico popular
-              durante os meses de verão.
-            </p>
-            <p class="place__text">
-              A uma curta caminhada da estrada do castelo, você pode desfrutar
-              do melhor sorvete do mundo no Cadwalader's, cujo ingrediente
-              secreto, segundo rumores, são algas marinhas de origem local.
-              Outra reivindicação à fama é o fato de que Criccieth ganhou o
-              prêmio *Wales in Bloom* por cinco anos consecutivos por suas
-              espetaculares exibições florais pela cidade. Foi também a casa de
-              David Lloyd George, o único galês a ocupar o cargo de
-              primeiro-ministro do Reino Unido
-            </p>
-
+            <div class="place__description">
+              <p class="place__text">
+                A ruína medieval do Castelo de Cricieth tem vista para a cidade
+                abaixo de uma rocha que se projeta para o mar. Acredita-se que
+                tenha sido construído por Llewelyn, o Grande, no século XIII.
+                Cerca de 900 anos depois, a auto-intitulada *Pérola de Gales nas
+                margens de Snowdonia* tornou-se um destino turístico popular
+                durante os meses de verão.
+              </p>
+              <p class="place__text">
+                A uma curta caminhada da estrada do castelo, você pode desfrutar
+                do melhor sorvete do mundo no Cadwalader's, cujo ingrediente
+                secreto, segundo rumores, são algas marinhas de origem local.
+                Outra reivindicação à fama é o fato de que Criccieth ganhou o
+                prêmio *Wales in Bloom* por cinco anos consecutivos por suas
+                espetaculares exibições florais pela cidade. Foi também a casa
+                de David Lloyd George, o único galês a ocupar o cargo de
+                primeiro-ministro do Reino Unido
+              </p>
+            </div>
             <button class="place__button">
               Compre esta obra de arte como NFT
             </button>
           </div>
 
-          <div class="place__places">
+          <div class="place places__item">
             <h3 class="place__title">Berea, EUA</h3>
             <div class="place__author-container">
               <p class="place__author-tag">Artista</p>
@@ -121,33 +149,33 @@
 
             <img
               class="place__image"
-              src="./images/Berea_USA.png"
+              src="./images/Bearea_USA.jpg"
               alt="Foto de Berea"
             />
-
-            <p class="place__text">
-              Berea é uma pequena cidade localizada na parte central do
-              Kentucky. A cidade é cercada por belas florestas e campos. É
-              conhecida como a capital do artesanato do estado, e os visitantes
-              encontrarão muitas oportunidades de compras: lojas com bijuterias
-              artesanais, velas, artigos de madeira, galerias, ateliês de vidro
-              e muito mais. A cidade realiza um festival anual que celebra o
-              "pão de colher", um prato local feito com pão de milho e servido
-              com uma colher de pau.
-            </p>
-            <p class="place__text">
-              No entanto, provavelmente é mais conhecida pela faculdade local. O
-              Berea College foi fundado em 1855 e foi o primeiro colégio no sul
-              a ser racialmente integrado, bem como o primeiro a ser misto. De
-              forma um tanto singular, não cobra mensalidades - todo aluno
-              recebe uma bolsa de estudos integral.
-            </p>
-
+            <div class="place__description">
+              <p class="place__text">
+                Berea é uma pequena cidade localizada na parte central do
+                Kentucky. A cidade é cercada por belas florestas e campos. É
+                conhecida como a capital do artesanato do estado, e os
+                visitantes encontrarão muitas oportunidades de compras: lojas
+                com bijuterias artesanais, velas, artigos de madeira, galerias,
+                ateliês de vidro e muito mais. A cidade realiza um festival
+                anual que celebra o "pão de colher", um prato local feito com
+                pão de milho e servido com uma colher de pau.
+              </p>
+              <p class="place__text">
+                No entanto, provavelmente é mais conhecida pela faculdade local.
+                O Berea College foi fundado em 1855 e foi o primeiro colégio no
+                sul a ser racialmente integrado, bem como o primeiro a ser
+                misto. De forma um tanto singular, não cobra mensalidades - todo
+                aluno recebe uma bolsa de estudos integral.
+              </p>
+            </div>
             <button class="place__button">
               Compre esta obra de arte como NFT
             </button>
           </div>
-          <div class="place__places">
+          <div class="place places__item">
             <h3 class="place__title">Muramvya, Burundi</h3>
             <div class="place__author-container">
               <p class="place__author-tag">Artista</p>
@@ -156,39 +184,41 @@
 
             <img
               class="place__image"
-              src="./images/Muramvya_burundi.png"
+              src="./images/Muramvya_burundi.jpg"
               alt="Foto de Muramvya"
             />
-
-            <p class="place__text">
-              Muramvya é uma das 18 províncias de Burundi. Na era do reino,
-              Muramvya era a capital real e em 2007, por causa de sua paisagem
-              cultural e natural, foi adicionada à Lista Provisória do
-              Patrimônio Mundial da UNESCO. Está localizada no centro de
-              Burundi, entre as capitais políticas e econômicas do país.
-            </p>
-            <p class="place__text">
-              O clima é bastante frio à noite, mas durante o dia, você pensaria
-              que está no céu. A 2.665 metros (8.743 pés) acima do nível do mar,
-              o Monte Teza é um dos lugares mais frios da província. Mas essa
-              brisa fresca permite uma das maiores plantações de chá e café do
-              país, que representam a maior parte das exportações do Burundi.
-            </p>
-            <p class="place__text">
-              O Parque Nacional de Kibira, uma das maiores reservas de vida
-              selvagem para macacos, se sobrepõe a quatro províncias, incluindo
-              Muramvya. Este Parque Nacional encontra-se no ápice das belas
-              montanhas do Congo-Nile Divide, variando entre 1.550 e 2.660
-              metros de altitude. Está repleta de uma bela vegetação e fonte
-              para os vários rios e riachos que fornecem água em todo o país.
-            </p>
-
+            <div class="place__description">
+              <p class="place__text">
+                Muramvya é uma das 18 províncias de Burundi. Na era do reino,
+                Muramvya era a capital real e em 2007, por causa de sua paisagem
+                cultural e natural, foi adicionada à Lista Provisória do
+                Patrimônio Mundial da UNESCO. Está localizada no centro de
+                Burundi, entre as capitais políticas e econômicas do país.
+              </p>
+              <p class="place__text">
+                O clima é bastante frio à noite, mas durante o dia, você
+                pensaria que está no céu. A 2.665 metros (8.743 pés) acima do
+                nível do mar, o Monte Teza é um dos lugares mais frios da
+                província. Mas essa brisa fresca permite uma das maiores
+                plantações de chá e café do país, que representam a maior parte
+                das exportações do Burundi.
+              </p>
+              <p class="place__text">
+                O Parque Nacional de Kibira, uma das maiores reservas de vida
+                selvagem para macacos, se sobrepõe a quatro províncias,
+                incluindo Muramvya. Este Parque Nacional encontra-se no ápice
+                das belas montanhas do Congo-Nile Divide, variando entre 1.550 e
+                2.660 metros de altitude. Está repleta de uma bela vegetação e
+                fonte para os vários rios e riachos que fornecem água em todo o
+                país.
+              </p>
+            </div>
             <button class="place__button">
               Compre esta obra de arte como NFT
             </button>
           </div>
 
-          <div class="place__places">
+          <div class="place places__item">
             <h3 class="place__title">Rio de Janeiro, Brasil</h3>
             <div class="place__author-container">
               <p class="place__author-tag">Artista</p>
@@ -200,38 +230,39 @@
               src="./images/Rio-de-Janeiro.jpg"
               alt="Foto do Rio de Janeiro"
             />
-
-            <p class="place__text">
-              O Rio de Janeiro, uma das cidades mais icônicas do Brasil, é um
-              verdadeiro cartão-postal conhecido mundialmente por suas paisagens
-              deslumbrantes e sua cultura vibrante. Cercado por montanhas e
-              banhado pelo Atlântico, o Rio abriga algumas das praias mais
-              famosas do mundo, como Copacabana e Ipanema. A cidade também é lar
-              do Cristo Redentor, uma das Sete Maravilhas do Mundo Moderno, que
-              se ergue no topo do Corcovado, oferecendo uma vista panorâmica de
-              tirar o fôlego.
-            </p>
-            <p class="place__text">
-              Durante o dia, o clima tropical do Rio proporciona um cenário
-              perfeito para passeios ao ar livre. O Pão de Açúcar, a 396 metros
-              acima do nível do mar, oferece uma das vistas mais impressionantes
-              da cidade, especialmente ao pôr do sol. Já a Floresta da Tijuca,
-              uma das maiores florestas urbanas do mundo, é um refúgio verde
-              repleto de trilhas, cachoeiras e vida selvagem, proporcionando uma
-              conexão única com a natureza dentro da metrópole.
-            </p>
-            <p class="place__text">
-              O Rio também é sinônimo de cultura e tradição. O Carnaval carioca,
-              com seus desfiles grandiosos no Sambódromo, atrai milhões de
-              visitantes todos os anos, celebrando a música, a dança e a alegria
-              contagiante do povo brasileiro. A cidade respira arte e história,
-              desde o charme boêmio de Santa Teresa até a modernidade do Museu
-              do Amanhã, na revitalizada região portuária. Seja para relaxar na
-              praia, explorar sua natureza exuberante ou mergulhar na
-              efervescência cultural, o Rio de Janeiro é um destino
-              inesquecível.
-            </p>
-
+            <div class="place__description">
+              <p class="place__text">
+                O Rio de Janeiro, uma das cidades mais icônicas do Brasil, é um
+                verdadeiro cartão-postal conhecido mundialmente por suas
+                paisagens deslumbrantes e sua cultura vibrante. Cercado por
+                montanhas e banhado pelo Atlântico, o Rio abriga algumas das
+                praias mais famosas do mundo, como Copacabana e Ipanema. A
+                cidade também é lar do Cristo Redentor, uma das Sete Maravilhas
+                do Mundo Moderno, que se ergue no topo do Corcovado, oferecendo
+                uma vista panorâmica de tirar o fôlego.
+              </p>
+              <p class="place__text">
+                Durante o dia, o clima tropical do Rio proporciona um cenário
+                perfeito para passeios ao ar livre. O Pão de Açúcar, a 396
+                metros acima do nível do mar, oferece uma das vistas mais
+                impressionantes da cidade, especialmente ao pôr do sol. Já a
+                Floresta da Tijuca, uma das maiores florestas urbanas do mundo,
+                é um refúgio verde repleto de trilhas, cachoeiras e vida
+                selvagem, proporcionando uma conexão única com a natureza dentro
+                da metrópole.
+              </p>
+              <p class="place__text">
+                O Rio também é sinônimo de cultura e tradição. O Carnaval
+                carioca, com seus desfiles grandiosos no Sambódromo, atrai
+                milhões de visitantes todos os anos, celebrando a música, a
+                dança e a alegria contagiante do povo brasileiro. A cidade
+                respira arte e história, desde o charme boêmio de Santa Teresa
+                até a modernidade do Museu do Amanhã, na revitalizada região
+                portuária. Seja para relaxar na praia, explorar sua natureza
+                exuberante ou mergulhar na efervescência cultural, o Rio de
+                Janeiro é um destino inesquecível.
+              </p>
+            </div>
             <button class="place__button">
               Compre esta obra de arte como NFT
             </button>

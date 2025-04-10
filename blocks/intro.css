@@ -1,18 +1,11 @@
 .intro {
-  max-width: 830px;
+  max-width: 984px;
   margin: 0 auto;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: left;
-  padding-top: 92px;
+  padding: 46px 0 46px;
 }
 
 .intro__title {
   max-width: 830px;
-  max-height: 116px;
-  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 54px;
   line-height: 1.05;
@@ -21,89 +14,50 @@
 
 .intro__quote {
   max-width: 738px;
-  max-height: 68px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
   font-size: 24px;
   line-height: 1.33;
   color: #ffffff;
+  margin: 40px 0 0;
 }
 
 .intro__quote-author {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
+  max-width: 732px;
   font-size: 24px;
   line-height: 1.33;
   text-align: right;
   color: #ffffff;
+  margin: 10px 0;
 }
 
 .intro__main-text {
   max-width: 722px;
-  max-height: 182px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 1.63;
   color: #ffffff;
+  margin: 32px 0 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024x) {
   .intro {
-    max-width: 720px;
+    padding: 44px 24px 32px;
   }
 
   .intro__title {
-    max-width: 707px;
-    max-height: 98px;
     font-size: 45px;
-    line-height: 1.09;
-    text-align: center;
-  }
-
-  .intro__quote {
-    max-width: 720px;
-    max-height: 102px;
-    font-size: 24px;
-    line-height: 1.33;
-  }
-
-  .intro__quote-author {
-    max-height: 34px;
-  }
-
-  .intro__main-text {
-    max-height: 182px;
-  }
-
-  .intro__text {
-    font-size: 16px;
-    text-align: justify;
-    padding: 0 10px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
   .intro {
-    max-width: 288px;
+    padding: 18px 16px 19px;
   }
 
   .intro__title {
-    max-width: 288px;
-    max-height: 140px;
     font-size: 32px;
     line-height: 1.09;
   }
 
-  .intro__subtitle {
-    max-width: 288px;
-    max-height: 180px;
-    font-size: 24px;
+  .intro__quote {
     line-height: 1.25;
-  }
-
-  .intro__main-text {
-    max-width: 288px;
-    max-height: 442px;
   }
 }

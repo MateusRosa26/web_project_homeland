@@ -1,50 +1,17 @@
 .logo {
-  max-width: 10vw;
-  max-height: 70px;
-  margin: 0 auto;
-  padding-top: 34px;
-  text-align: center;
+  width: 254px;
+  height: 70px;
 }
 
-.logo__image {
-  max-width: 32px;
-  max-height: 32px;
-  margin-bottom: 27px;
-}
-
-.logo__image-text {
-  width: 255px;
-  height: 15px;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .logo {
-    max-height: 66px;
-  }
-
-  .logo__image {
-    max-height: 30px;
-  }
-
-  .logo__image-text {
-    max-height: 14px;
+    height: 66px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
   .logo {
     max-width: 188px;
-    max-height: 52px;
-  }
-
-  .logo__image {
-    max-width: 24px;
-    max-height: 24px;
-  }
-
-  .logo__image-text {
-    max-width: 189px;
-    max-height: 11px;
+    height: 52px;
   }
 }
