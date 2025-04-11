@@ -3,7 +3,7 @@
   padding: 46px 48px 46px;
 }
 
-.photo-grid__list {
+.photo-grid-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 10px;

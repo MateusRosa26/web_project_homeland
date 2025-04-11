@@ -37,7 +37,7 @@
   margin: 32px 0 0;
 }
 
-@media screen and (max-width: 1024x) {
+@media screen and (max-width: 1024px) {
   .intro {
     padding: 44px 24px 32px;
   }
