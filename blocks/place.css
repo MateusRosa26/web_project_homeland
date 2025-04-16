@@ -114,6 +114,10 @@
 }
 
 @media screen and (max-width: 640px) {
+  .places {
+    padding: 46px 27px 46px;
+  }
+
   .place {
     grid-template-areas:
       "title"
